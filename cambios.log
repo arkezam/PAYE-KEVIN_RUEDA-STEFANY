@@ -1,0 +1,148 @@
+[2024-08-07 22:34:30] [ ERROR] [BD:37] fallo en la BD: Conversión de datos fallida, convirtiendo "2009 (PACIENTES: ""FECHA_INGRESO"" DATE NOT NULL)"
+Data conversion error converting "2009 (PACIENTES: ""FECHA_INGRESO"" DATE NOT NULL)"; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES ('Jorgito','Pereyra','345678',2024-08-07,'1') [22018-224]
+[2024-08-07 22:34:30] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:36:34] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 22:36:34] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:36:34] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de guardado de un domicilio
+[2024-08-07 22:38:31] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 22:38:31] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:47:29] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 22:47:29] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:47:29] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de guardado de un domicilio
+[2024-08-07 20:55:16] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 20:55:16] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 20:55:16] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:28:15] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "DROP TABLE [*]IF EXIST ODONTOLOGOS;CREATE TABLE ODONTOLOGOS(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)"; se esperaba "identifier"
+Syntax error in SQL statement "DROP TABLE [*]IF EXIST ODONTOLOGOS;CREATE TABLE ODONTOLOGOS(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)"; expected "identifier"; SQL statement:
+DROP TABLE IF EXIST ODONTOLOGOS;CREATE TABLE ODONTOLOGOS(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL) [42001-224]
+[2024-08-07 22:28:15] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:28:15] [ ERROR] [DomicilioDAOH2:28] conexion fallida: Tabla "ODONTOLOGOS" no encontrada
+Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42102-224]
+[2024-08-07 22:28:15] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:28:15] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:29:50] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "DROP TABLE [*]IF EXIST ODONTOLOGOS; CREATE TABLE ODONTOLOGOS(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)"; se esperaba "identifier"
+Syntax error in SQL statement "DROP TABLE [*]IF EXIST ODONTOLOGOS; CREATE TABLE ODONTOLOGOS(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)"; expected "identifier"; SQL statement:
+DROP TABLE IF EXIST ODONTOLOGOS; CREATE TABLE ODONTOLOGOS(NUMERO_MATRICULA INT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL) [42001-224]
+[2024-08-07 22:29:50] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:29:50] [ ERROR] [DomicilioDAOH2:28] conexion fallida: Tabla "ODONTOLOGOS" no encontrada
+Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [42102-224]
+[2024-08-07 22:29:50] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:29:50] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:31:41] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:31:41] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:31:41] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:31:41] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:32:32] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:32:32] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:32:32] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:32:32] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:32:32] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:32:32] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:32:32] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:35:33] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:35:33] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:35:33] [ INFO ] [DomicilioDAOH2:64] Odontologo [Model.Odontologo@7a6d7e92]
+[2024-08-07 22:35:33] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:35:33] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:35:33] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:35:33] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:35:33] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:36:27] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:36:27] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:36:27] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='alberto', apellido='salas'}]
+[2024-08-07 22:36:27] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:36:27] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:36:27] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:36:27] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:36:27] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:38:18] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:38:18] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:38:18] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:38:18] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:38:18] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:38:18] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:38:18] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:38:18] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:38:18] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:40:56] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:40:56] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:40:56] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:40:56] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:40:56] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:40:56] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:40:56] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:40:56] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:40:56] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:42:26] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:42:26] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:42:26] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:42:26] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:42:26] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:42:26] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:42:26] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:42:26] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:42:26] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:43:56] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]123, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]123, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 123, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:43:56] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:43:56] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:43:56] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:43:56] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:43:56] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:43:56] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]123, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]123, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 123, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:43:56] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:43:56] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:44:49] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 12113, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:44:49] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:44:49] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:44:49] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:44:49] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:44:49] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:44:49] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 12113, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:44:49] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:44:49] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:45:30] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 12113, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:45:30] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:45:30] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:45:30] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:45:30] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:45:30] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:45:30] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 12113, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:45:30] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:45:30] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:47:02] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 12113, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:47:02] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:47:02] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:47:02] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:47:02] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:47:02] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:47:02] [ ERROR] [BD:45] fallo en la BD: Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS( [*]12113, 'Juan', 'Perez' )"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS( 12113, 'Juan', 'Perez' ) [42001-224]
+[2024-08-07 22:47:02] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:47:02] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-07 22:48:13] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:48:13] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:48:13] [ INFO ] [DomicilioDAOH2:17] iniciando las operaciones de guardado de un paciente
+[2024-08-07 22:48:13] [ INFO ] [DomicilioDAOH2:64] Odontologo [Odontologo{numeroMatricula=3211, nombre='Alberto', apellido='salas'}, Odontologo{numeroMatricula=12113, nombre='Juan', apellido='Perez'}, Odontologo{numeroMatricula=32111, nombre='Maria', apellido='Gonzales'}]
+[2024-08-07 22:48:13] [ INFO ] [Odontologo:21] El odontologo Juan Perez y numero de matricula 123 se ha guardado correctamente
+[2024-08-07 22:48:13] [ INFO ] [Odontologo:21] El odontologo Juana Pelaez y numero de matricula 456 se ha guardado correctamente
+[2024-08-07 22:48:13] [ INFO ] [BD:42] datos cargados con exito
+[2024-08-07 22:48:13] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:48:13] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
